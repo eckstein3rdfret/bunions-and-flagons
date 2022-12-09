@@ -35,13 +35,6 @@ a{
     justify-content: flex-start;
 }
 .battlemenu2{
-    background-color: rgb(226, 224, 224);
-    border-color: rgb(40, 20, 95);
-    border-style: ridge;
-    border-width: 8px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px black inset;
-    color: black;
     display: flex;
     justify-content: space-between;
 }
