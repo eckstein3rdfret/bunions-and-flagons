@@ -53,6 +53,10 @@ a{
 .vert{
    display: none;
 }
+.bumper{
+    height: 25vh;
+    width: 100%;
+}
 @media only screen and (min-width: 1350px) {
     .font{
         font-size: 40px;
