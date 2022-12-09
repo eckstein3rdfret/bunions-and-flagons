@@ -1,3 +1,101 @@
-.height{
-    height: 400px;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;  
 }
+@font-face {
+    font-family: 'pokemontxt';
+    src: url(/collab-practice/fonts/pokemon-emerald.ttf);
+}
+.footer{
+    background-color: black;
+    height: 20vh;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 3px 4px rgb(68, 68, 68);
+}
+.battlemenu1{
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    color: #e2e0e0;
+}
+.subbattlemenu1{
+    background-color: rgb(3, 117, 70);
+    height: 100%;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.battlemenu2{
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.battlecol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.vert{
+   display: none;
+}
+@media only screen and (min-width: 1350px) {
+    .font{
+        font-size: 40px;
+    }
+  }
+@media only screen and (max-width: 1349px) {
+    .font{
+        font-size: 35px;
+    }
+  }
+@media only screen and (max-width: 1250px) {
+    .font{
+        font-size: 30px;
+    }
+  }
+@media only screen and (max-width: 1100px) {
+    .font{
+        font-size: 27px;
+    }
+  }
+@media only screen and (max-width: 991px) {
+    .font{
+        font-size: 35px;
+    }
+  }
+@media only screen and (max-width: 925px) {
+    .font{
+        font-size: 30px;
+    }
+  }
+@media only screen and (max-width: 825px) {
+    .font{
+        font-size: 27px;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .font{
+        font-size: 24px;
+    }
+  }
+@media only screen and (max-width: 690px) {
+    .font{
+        font-size: 20px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .font{
+        font-size: 17px;
+    }
+  }
