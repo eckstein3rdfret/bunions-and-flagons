@@ -7,6 +7,10 @@
     font-family: 'pokemontxt';
     src: url(/collab-practice/fonts/pokemon-emerald.ttf);
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 .footer{
     background-color: black;
     height: 20vh;
