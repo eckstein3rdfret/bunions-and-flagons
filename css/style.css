@@ -51,6 +51,7 @@ a{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black inset;
     color: black;
+    font-family: 'Kanit', sans-serif;
 }
 .vert{
    display: none;
