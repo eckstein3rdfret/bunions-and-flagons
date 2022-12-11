@@ -7,9 +7,22 @@
     font-family: 'pokemontxt';
     src: url(../fonts/pokemon-emerald.ttf);
 }
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.pokeball p{
+    margin: 0%;
+}
 a{
     color: black;
     text-decoration: none;
+}
+.pokeball{
+    background-image: url(../img/Pokeballwallpaper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
 }
 .footer{
     background-color: black;
@@ -27,21 +40,12 @@ a{
 .subbattlemenu1{
     background-color: rgb(3, 117, 70);
     height: 100%;
-    border-color: red;
     border-width: 5px;
-    border-style: solid;
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
 }
-.battlemenu2{
-    display: flex;
-    justify-content: space-between;
-}
 .battlecol{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
 }
 .pokemonborderclass{
@@ -52,13 +56,18 @@ a{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black inset;
     color: black;
-    font-family: 'Kanit', sans-serif;
 }
 .vert{
    display: none;
 }
-.bumper{
+.bumpertop{
+    height: 8vh;
+    background-color: black;
+    width: 100%;
+}
+.bumperbottom{
     height: 25vh;
+    background-color: black;
     width: 100%;
 }
 @media only screen and (min-width: 1350px) {
@@ -104,6 +113,11 @@ a{
 @media only screen and (max-width: 690px) {
     .font{
         font-size: 20px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .font{
+        font-size: 17px;
     }
   }
 @media only screen and (max-width: 600px) {
