@@ -19,10 +19,10 @@ a{
 }
 .pokeball{
     background-image: url(../img/Pokeballwallpaper.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 500px;
 }
 .footer{
     background-color: black;
