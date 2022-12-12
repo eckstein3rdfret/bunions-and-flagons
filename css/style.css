@@ -22,7 +22,8 @@ a{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
+    margin-bottom: 2%;
 }
 .footer{
     background-color: black;
