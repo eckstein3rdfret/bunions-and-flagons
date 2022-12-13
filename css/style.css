@@ -93,27 +93,12 @@ a{
         font-size: 20px;
     }
   }
-@media only screen and (max-width: 925px) {
-    .font{
-        font-size: 20px;
-    }
-  }
 @media only screen and (max-width: 825px) {
     .font{
         font-size: 17px;
     }
   }
 @media only screen and (max-width: 750px) {
-    .font{
-        font-size: 15px;
-    }
-  }
-@media only screen and (max-width: 690px) {
-    .font{
-        font-size: 15px;
-    }
-  }
-@media only screen and (max-width: 600px) {
     .font{
         font-size: 15px;
     }
