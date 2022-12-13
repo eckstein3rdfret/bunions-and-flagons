@@ -26,8 +26,12 @@ a{
     margin-bottom: 2%;
 }
 .footer{
+    
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 3px 4px rgb(68, 68, 68);
+}
+.width{
+    width: 80%;
 }
 .battlemenu1{
     background-color: red;
@@ -41,8 +45,6 @@ a{
     height: 100%;
     border-width: 5px;
     border-radius: 20px;
-    display: flex;
-    justify-content: flex-start;
 }
 .battlecol{
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
@@ -55,9 +57,6 @@ a{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black inset;
     color: black;
-}
-.vert{
-   display: none;
 }
 .bumpertop{
     height: 8vh;
@@ -91,36 +90,36 @@ a{
   }
 @media only screen and (max-width: 991px) {
     .font{
-        font-size: 35px;
+        font-size: 20px;
     }
   }
 @media only screen and (max-width: 925px) {
     .font{
-        font-size: 30px;
+        font-size: 20px;
     }
   }
 @media only screen and (max-width: 825px) {
     .font{
-        font-size: 27px;
+        font-size: 17px;
     }
   }
 @media only screen and (max-width: 750px) {
     .font{
-        font-size: 24px;
+        font-size: 15px;
     }
   }
 @media only screen and (max-width: 690px) {
     .font{
-        font-size: 20px;
+        font-size: 15px;
     }
   }
 @media only screen and (max-width: 600px) {
     .font{
-        font-size: 17px;
+        font-size: 15px;
     }
   }
 @media only screen and (max-width: 600px) {
     .font{
-        font-size: 17px;
+        font-size: 12px;
     }
   }
