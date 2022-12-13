@@ -26,8 +26,6 @@ a{
     margin-bottom: 2%;
 }
 .footer{
-    background-color: black;
-    height: 20vh;
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 3px 4px rgb(68, 68, 68);
 }

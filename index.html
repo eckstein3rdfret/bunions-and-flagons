@@ -13,16 +13,37 @@
     <title>PKMN Master Journeys</title>
   </head>
   <body class="bg-black text-light">
-    <nav class="d-flex justify-content-between swankyhamburger fixed-top bg-black">
-      <img class="mx-3" src="./img/plogo.png" width="115px" height="60px">
-      <div class="d-flex flex-row justify-content-center align-items-center me-3">
-        <a href="#Regions" class="text-decoration-none text-white"><p class="my-0 mx-2 fs-4">Regions</p></a>
-        <a href="#Starters" class="text-decoration-none text-white"><p class="my-0 mx-2 fs-4">Starters</p></a>
-        <a href="#Battles" class="text-decoration-none text-white"><p class="my-0 mx-2 fs-4">Battles</p></a>
-        <a href="#Evolutions" class="text-decoration-none text-white"><p class="my-0 mx-2 fs-4">Evolutions</p></a>
-        <a href="#Champion" class="text-decoration-none text-white"><p class="my-0 mx-2 fs-4">Champion</p></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/plogo.png" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light"  aria-current="page" href="#Regions">Regions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Starters">Starters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Battles">Battles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Evolutions">Evolutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Champion">Champion</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </nav> 
+    </nav>
     <div class="bumpertop">
 
     </div>
@@ -33,12 +54,12 @@
         
         <div class="d-flex justify-content-between text-center mx-3">
           <div class="ms-3">
-            <h3>Discover a New World!</h3>
+            <h3 class="fs-5">Discover a New World!</h3>
             <p>Choose from 3 Regions: Kanto, Johto, Hoenn!</p>
           </div>
           <div class="me-3">
             <h3>Pick Your Very Own Starter!</h3>
-            <p>Choose your very own Pokemon!!!</p>
+            <p>Choose your very own Pokémon!!!</p>
           </div>              
           
         </div>  
@@ -46,14 +67,14 @@
             <!-- This is the bottom row -->
         <div class="d-flex justify-content-between text-center mx-3">
           <div class="ms-3">
-            <h3>Evolve with Your Pokemon!</h3>
+            <h3>Evolve with Your Pokémon!</h3>
             <p>Each Master Journey brings its own challenges...</p>
-            <p>Work together with your Pokemon to overcome them!!!</p>
+            <p>Work together with your Pokémon to overcome them!!!</p>
           </div>
           <div class="me-3">
             <h3>Choose Your Ultimate Goal!!!</h3>
             <p>Catch 'em all!</p>
-            <p>Become a Pokemon Professor!</p>
+            <p>Become a Pokémon Professor!</p>
             <p>Become the Region Champion!</p>
           </div>
         </div>
@@ -65,11 +86,11 @@
         <div class="pt-3">
           <div class="row pokemonborderclass px-3 pb-3 pt-4">  
             <h2 class="text-center">Kanto</h2>
-            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
-                <p>The Kanto Region is the first of 3 regions you can choose for your very own Pokemon Master Journey! With a total of 150 different types of Pokemon populating the region you will never run out of opportunities to catch them all!</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit, cum quo nam delectus ratione quae, laboriosam facere ullam dolorem dolorum alias asperiores nesciunt tempore, autem quidem consequuntur earum? Iusto!</p>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
+                <p>The Kanto Region is the first of 3 regions you can choose for your very own Pokémon Master Journey! With a total of 150 different types of Pokémon populating the region you will never run out of opportunities to catch them all!</p>
+                <p>The Kanto Region is a must-see destination for any Pokémon trainer! This beautiful region is home to a diverse array of cities and towns, including  Viridian City, Celadon city, and Saffron City. Whether you're just starting your Pokémon journey or you're a seasoned trainer, the Kanto Region has something for everyone. Catch and train a wide variety of Pokémon, and test your skills at the Pokémon League against the Elite Four and the Pokémon Champion. Don't miss out on the adventure of a lifetime book your trip to the Kanto Region today!</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <img src="./img/Kanto_HGSS_Art.png" width="100%" height="100%">
             </div>
           </div>
@@ -78,23 +99,23 @@
         <div class="py-5">
           <div class="row pokemonborderclass px-3 pb-3 pt-4">  
             <h2 class="text-center">Johto</h2>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <img src="./img/Johto_HGSSmap-800px.png" width="100%" height="100%">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem cumque, neque dolorum reprehenderit optio, eaque in, voluptas mollitia ut illo nobis obcaecati eius veritatis aperiam iure! Eum, ut itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit, cum quo nam delectus ratione quae, laboriosam facere ullam dolorem dolorum alias asperiores nesciunt tempore, autem quidem consequuntur earum? Iusto!</p>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
+                <p>The Johto Region is the second of 3 regions you can choose for your very own Pokémon Master Journey adding an additional 100 new kinds of Pokémon that you can catch and train... for a total of 250 different types of Pokémon! With this region comes the <strong>introduction of Dark and Steel type Pokémon</strong> as well as the ability to <strong>breed Pokémon!</strong> Seasoned trainers are encouraged to pick this Journey!</p>
+                <p>The Johto Region is a must-see destination for any Pokémon trainer! This beautiful region is home to a diverse array of cities and towns, including New Bark Town, Violet City, and Goldenrod City. Whether you're just starting your Pokémon journey or you're a seasoned trainer, the Johto Region has something for everyone. Catch and train a wide variety of Pokémon, and test your skills at the Johto League against the Elite Four and the Pokémon Champion. Don't miss out on the adventure of a lifetime book your trip to the Johto Region today!</p>
             </div>
           </div>
         </div>
         <div class="pt-1">
           <div class="row pokemonborderclass px-3 pb-3 pt-4">  
             <h2 class="text-center">Hoenn</h2>
-            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem cumque, neque dolorum reprehenderit optio, eaque in, voluptas mollitia ut illo nobis obcaecati eius veritatis aperiam iure! Eum, ut itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit, cum quo nam delectus ratione quae, laboriosam facere ullam dolorem dolorum alias asperiores nesciunt tempore, autem quidem consequuntur earum? Iusto!</p>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-evenly align-items-center">
+                <p>The Hoenn Region is the final option you can choose for your very own Pokémon Master Journey and by no means the least. Adding <strong>135 new types of Pokémon</strong> this region has a total of <strong>386 total Pokémon</strong> that you can catch and breed! In this region your Pokémon can have <strong>Natures</strong> which affect specific stat growth as well as passive <strong>Abilites</strong> which will come in handy with the new <strong>Doubles Battles!</strong> you will face!</p>
+                <p>The Hoenn Region is a must-see destination for any Pokémon trainer! This beautiful region is known for its diverse array of cities and towns, including Lavaridge Town, Mossdeep City, and Ever Grande City. It is also home to the Hoenn League, where trainers can test their skills against the Elite Four and the Pokémon Champion. The region is home to many species of Pokémon, and offers a unique and exciting environment for both Pokémon trainers and Pokémon alike. Trainers can begin their journey in the Hoenn Region and catch and train a wide variety of Pokémon. Book your trip to the Hoenn Region today for the adventure of a lifetime!</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <img src="./img/800px-Hoenn_ORAS.webp" width="100%" height="100%">
             </div>
           </div>
@@ -121,7 +142,45 @@
                   <h5>Squirtle Water Type</h5>
                 </div>
                 <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quod possimus consequuntur, alias molestias odio unde sed, sit dolor laborum laboriosam mollitia voluptatibus aut iure. Ea, laboriosam natus! Omnis, nemo.</p>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <a href="https://pokemondb.net/pokedex/bulbasaur"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" class="px-1" alt="Bulbasaur"></a> Bulbasaur
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Grass/Poison Type</strong>
+                          It bears the seed of a plant on its back from birth. The seed slowly develops. Researchers are unsure whether to classify Bulbasaur as a plant or animal. Bulbasaur are extremely tough and very difficult to capture in the wild. It evolves into Ivysaur and then Venusaur
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <a href="https://pokemondb.net/pokedex/charmander"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" class="px-1" alt="Charmander"></a> Charmander
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Fire Type</strong> The Lizard Pokémon. Charmander's health can be gauged by the fire on the tip of its tail, which burns intensely when it's in good health. It evolves into Charmeleon and then into Charizard a <strong>Fire/Flying Type</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <a href="https://pokemondb.net/pokedex/squirtle"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif" class="px-1" alt="Squirtle"></a> Squirtle
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Water Type</strong> This Tiny Turtle Pokémon draws its long neck into its shell to launch incredible Water attacks with amazing range and accuracy. The blasts can be quite powerful. It evolves into Wartortle and then into Blastoise
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>                    
             </div>
@@ -136,12 +195,49 @@
                 </div>
                 <div class="col-lg-12 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">  
                   <h4>Starter Pokemon</h4>
-                  <h5>Bayleef Grass Type</h5>
+                  <h5>Chikorita Grass Type</h5>
                   <h5>Cyndaquil Fire Type</h5>
                   <h5>Totodile Water Type</h5>
                 </div>
                 <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quod possimus consequuntur, alias molestias odio unde sed, sit dolor laborum laboriosam mollitia voluptatibus aut iure. Ea, laboriosam natus! Omnis, nemo.</p>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <a href="https://pokemondb.net/pokedex/chikorita"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/chikorita.gif" class="px-1" height="40px" alt="Chikorita"> Chikorita</a>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Grass Type</strong> the Leaf Pokémon. Chikorita emit pleasant aromas from the leaves on their heads and they love to sunbathe. It evolves into Bayleef and then into Meganium
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <a href="https://pokemondb.net/pokedex/cyndaquil"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/cyndaquil.gif" class="px-1" height="42px" alt="Cyndaquil"> Cyndaquil</a>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Fire Type</strong> The Fire Mouse Pokémon. Normally mild and even-tempered, Cyndaquil will shoot a scorching flame out of its back when upset. It evolves into Quilava and then into Typhlosion
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <a href="https://pokemondb.net/pokedex/totodile"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/totodile.gif" class="px-1" height="41px" alt="Totodile"> Totodile</a>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Water Type</strong> The Big Jaw Pokémon. Its highly developed jaw is so powerful, it can crush practically anything. Trainers beware: this Pokémon loves to use its teeth. It evolves into Croconaw and then into Feraligatr
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -161,7 +257,44 @@
                   <h5>Treecko Grass Type</h5>
                 </div>
                 <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quod possimus consequuntur, alias molestias odio unde sed, sit dolor laborum laboriosam mollitia voluptatibus aut iure. Ea, laboriosam natus! Omnis, nemo.</p>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <a href="https://pokemondb.net/pokedex/torchic"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/torchic.gif" height="40px" alt="Torchic"> Torchic</a> 
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Fire Type</strong> A fire burns inside of it, so it feels very warm to hug. It launches fireballs of 1,800 degrees F. It evolves into Combusken and then into Blaziken, both are <strong>Fire/Fighting Types</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <a href="https://pokemondb.net/pokedex/mudkip"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/mudkip.gif" height="40px" alt="Mudkip"> Mudkip</a>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Water Type</strong> The Mud Fish Pokémon. Mudkip uses the sensitive radar receptors on its headfin to determine what's going on around it. In a pinch, it can brandish enough power to crush rocks. It evolves into Marshtomp and then into Swampert, both are <strong>Water/Ground Types</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <a href="https://pokemondb.net/pokedex/treecko"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/treecko.gif" height="42px" alt="Treecko"> Treecko</a>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Grass Type</strong> The Wood Gecko Pokémon. Treecko are able to climb smooth vertical walls and use their thick tail to attack opponents. Since Treecko build their nests in large trees, it is said that those trees will live a very long life. It evolves into Grovyle and then into Sceptile
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -182,7 +315,7 @@
                 <iframe width="100%" height="300px" src="https://www.youtube.com/embed/SFT2EUdEnKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="col-lg-12 col-md-6 col-sm-12 p-3 d-flex flex-column justify-content-center align-items-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus inventore, ipsum, rerum sint alias veritatis libero quis tempora quaerat nobis atque obcaecati ullam quasi, sed necessitatibus illo velit tempore.</p>
+                <p>Pokemon battles are a form of competition between two trainers, each with a team of one or more Pokemon. During a battle, the trainers take turns issuing commands to their Pokemon, who use various abilities and attacks to try and defeat the opponent's Pokemon. The battle ends when one trainer's Pokemon are unable to continue, at which point the other trainer is declared the winner.</p>
               </div>
             </div>
           </div>
@@ -195,7 +328,7 @@
                 <img src="./img/PokemonTypes.webp" width="100%" height="300px">
               </div>
               <div class="col-lg-12 col-md-6 col-sm-12 p-3 d-flex flex-column justify-content-center align-items-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus inventore, ipsum, rerum sint alias veritatis libero quis tempora quaerat nobis atque obcaecati ullam quasi, sed necessitatibus illo velit tempore.</p>
+                <p>Pokemon are creatures with a wide variety of abilities and characteristics, and are often grouped into different types based on these traits. Some common types of Pokemon include Water, Fire, Grass, and Electric. Each type has its own strengths and weaknesses, and can be effective or vulnerable against different types of attacks. For example, Water-type Pokemon are typically strong against Fire-type Pokemon, but weak against Electric-type attacks.</p>
               </div>
             </div>
           </div>
@@ -208,7 +341,7 @@
                 <img src="./img/typechart.png" width="100%" height="300px">
               </div>
               <div class="col-lg-12 col-md-6 col-sm-12 p-3 d-flex flex-column justify-content-center align-items-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus inventore, ipsum, rerum sint alias veritatis libero quis tempora quaerat nobis atque obcaecati ullam quasi, sed necessitatibus illo velit tempore.</p>
+                <p>Each type has its own strengths and weaknesses when it comes to battling against other types. Water-type moves are typically strong against Fire-types, but weak against Electric-types. On the other hand, an Electric-type move would be effective against a Water-type, but not very effective against a Grass-type. The effectiveness of different Pokemon types against each other can vary depending on the specific situation and the abilities of the individual Pokemon involved</p>
               </div>
             </div>
           </div>
@@ -221,8 +354,8 @@
         <div class="row pokemonborderclass px-3 pb-3 pt-4">
           <h2 class="text-center">Pokemon Evolution</h2>  
           <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center fs-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem cumque, neque dolorum reprehenderit optio, eaque in, voluptas mollitia ut illo nobis obcaecati eius veritatis aperiam iure! Eum, ut itaque.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit, cum quo nam delectus ratione quae, laboriosam facere ullam dolorem dolorum alias asperiores nesciunt tempore, autem quidem consequuntur earum? Iusto!</p>
+            <p>In the Pokémon world, evolutions are a natural process that some Pokémon undergo to become more powerful. Pokémon can evolve in a number of different ways: reaching a certain level, using a special item, or learning a specific move. Once a Pokémon has evolved, it gains new abilities, powers, as well as a new appearance. Some Pokémon are able to evolve multiple times, further increasing their strength and abilities. This process of evolution allows Pokémon to become more powerful and better able to defend themselves in battles against other Pokémon.</p>
+            <p>Eevee is a Pokémon that is capable of undergoing multiple evolutions. Eevee can evolve into one of several different forms, including Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, and Sylveon. Once Eevee has evolved, it will gain new abilities and powers, as well as a new appearance. This process of evolution allows Eevee to become more powerful and better able to defend itself in battles against other Pokémon.</p>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="./img/Eeveelutions.webp" width="100%" height="100%">
@@ -236,8 +369,9 @@
         <div class="row pokemonborderclass px-3 pb-3 pt-4 fs-5">  
           <h2 class="text-center">Become The Champion!!!</h2>
           <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem cumque, neque dolorum reprehenderit optio, eaque in, voluptas mollitia ut illo nobis obcaecati eius veritatis aperiam iure! Eum, ut itaque.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit, cum quo nam delectus ratione quae, laboriosam facere ullam dolorem dolorum alias asperiores nesciunt tempore, autem quidem consequuntur earum? Iusto!</p>
+            <p>Pokémon Gyms are places where trainers can go to test their skills. Each Gym is led by a powerful Gym Leader, who specializes in a particular type of Pokémon. Trainers who are able to defeat the Gym Leader will earn a special badge as proof of their victory.</p>
+            <p>After collecting every badge in their region, trainers may then challenge the Elite Four, a group of the strongest trainers in the Region, each specializing in a different type of Pokémon. A trainer must defeat all four members of the Elite Four in order to challenge the current Champion.</p>
+            <p>The Pokémon Champion is the strongest trainer in the Region with a team of highly skilled and powerful Pokémon at their disposal. The current Champion is the trainer who has defeated the Elite Four and all previous Champions before them. Becoming the Pokémon Champion is the ultimate goal for many trainers, as it is considered to be the highest honor in the world of Pokémon.</p>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12">
             <img src="./img/champions.avif" width="100%" height="100%">
@@ -249,7 +383,7 @@
 
     </div>
     
-    <div class="row bg-black footer fixed-bottom">
+    <footer class="row bg-black footer fixed-bottom">
               
       <div class="col-lg-1 d-none d-lg-block"></div>
     
@@ -283,7 +417,7 @@
       
       <div class="col-lg-1 d-none d-lg-block"></div>
 
-    </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
