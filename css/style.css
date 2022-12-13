@@ -25,13 +25,10 @@ a{
     height: 600px;
     margin-bottom: 2%;
 }
-.footer{
-    
+footer p{
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 3px 4px rgb(68, 68, 68);
-}
-.width{
-    width: 80%;
+    margin-bottom: 0%;
 }
 .battlemenu1{
     background-color: red;
@@ -45,9 +42,6 @@ a{
     height: 100%;
     border-width: 5px;
     border-radius: 20px;
-}
-.battlecol{
-    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
 }
 .pokemonborderclass{
     background-color: rgb(226, 224, 224);
