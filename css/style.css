@@ -10,17 +10,15 @@
 body{
     font-family: 'Kanit', sans-serif;
 }
-li{
-    border-radius: 500px;
-}
-li :hover{
+
+li a:hover{
     background-color: white !important;
     color: black !important;
-    border-radius: 500px;
 }
 a{
     color: black;
     text-decoration: none;
+    border-radius: 500px;
 }
 footer p{
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
