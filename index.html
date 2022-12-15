@@ -14,6 +14,9 @@
     <title>PKMN Master Journeys</title>
   </head>
   <body class="bg-black text-light">
+  
+    <!-- This is the start of the Navbar -->
+  
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./img/plogo.png" height="50vh"></a>
@@ -45,10 +48,20 @@
         </div>
       </div>
     </nav>
-    <div class="bumpertop">
-
-    </div>
-    <section>  
+    <!-- This is the end of the Navbar -->
+    
+    <!-- This stops the fixed Navbar from overlapping the carousel -->
+    <div class="bumpertop"></div>
+    <!-- This stops the fixed Navbar from overlapping the carousel -->
+    
+    <section>
+      <!-- This is the player for the Metal Pokemon Music -->
+      <div class="d-flex justify-content-center align-items-center">
+        <audio controls><source src="./audio/THE POKÉMON THEME - (METAL COVER) Jonathan Young & Jason Paige (the original singer).mp4"></audio>
+        Adjust Volume to Half and Click for Face melting awesomeness!!
+      </div>
+      <!-- This is the player for the Metal Pokemon Music -->
+      <!-- This is the Carousel -->
       <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -56,7 +69,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -102,8 +115,10 @@
           </button>
         </div>
       </div>
+    <!-- This is the Carousel -->
     </section>  
-    
+   
+    <!-- This is the Region section -->
     <section id="Regions" class="py-5">
       <div class="container">
         <div class="pt-3">
@@ -145,11 +160,13 @@
         </div>
       </div>
     </section>
-
+    <!-- This is the Region section -->
+    
+    <!-- This is the Starter section -->
     <section id="Starters">
       <div class="container py-5">
         <div class="row">
-          
+          <!-- Kanto Starters -->
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="pokemonborderclass my-3 p-3">
                 
@@ -208,7 +225,7 @@
               </div>                    
             </div>
           </div>
-
+          <!-- Johto Starters -->
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="pokemonborderclass my-3 p-3">
               <h2 class="text-center">Johto Region</h2>
@@ -265,7 +282,7 @@
               </div>
             </div>
           </div>
-
+          <!-- Hoenn Starters -->
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="pokemonborderclass my-3 p-3">
               <h2 class="text-center">Hoenn Region</h2>
@@ -325,7 +342,9 @@
         </div>
       </div>
     </section>
+    <!-- This is the Starter section -->
 
+    <!-- This is the Battles section -->
     <section id="Battles">
       <div class="container my-3 py-5">
         <div class="row pokemonborderclass">
@@ -371,7 +390,9 @@
         </div>
       </div>
     </section>
-
+    <!-- This is the Battles section -->
+    
+    <!-- This is the Evolutions section -->
     <section id="Evolutions">
       <div class="container my-5 py-5">
         <div class="row pokemonborderclass px-3 pb-3 pt-4">
@@ -401,23 +422,68 @@
         </div>
       </div>
     </section>
-
+    <!-- This is the Evolutions section -->
+    
+    <!-- This is the Champion section -->
     <section id="Champion">
       <div class="container my-3">
-        <div class="row pokemonborderclass px-3 pb-3 pt-4 fs-5">  
+        <div class="row pokemonborderclass px-3 pb-3 pt-4">  
           <h2 class="text-center">Become The Champion!!!</h2>
-          <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+          <div class="col-lg-6  d-none d-lg-block d-xl-block">
             <p>Pokémon Gyms are places where trainers can go to test their skills. Each Gym is led by a powerful Gym Leader, who specializes in a particular type of Pokémon. Trainers who are able to defeat the Gym Leader will earn a special badge as proof of their victory.</p>
             <p>After collecting every badge in their region, trainers may then challenge the Elite Four, a group of the strongest trainers in the Region, each specializing in a different type of Pokémon. A trainer must defeat all four members of the Elite Four in order to challenge the current Champion.</p>
             <p>The Pokémon Champion is the strongest trainer in the Region with a team of highly skilled and powerful Pokémon at their disposal. The current Champion is the trainer who has defeated the Elite Four and all previous Champions before them. Becoming the Pokémon Champion is the ultimate goal for many trainers, as it is considered to be the highest honor in the world of Pokémon.</p>
           </div>
+          
           <div class="col-lg-6 col-md-12 col-sm-12">
             <img src="./img/champions.avif" width="100%" height="100%">
+          </div>
+          <div class="d-lg-none d-md-block d-sm-block col-md-12 col-sm-12 d-flex flex-column justify-content-center ">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button active" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGyms" aria-expanded="true" aria-controls="collapseOne">
+                    Pokemon Gyms 
+                  </button>
+                </h2>
+                <div id="collapseGyms" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Pokémon Gyms are places where trainers can go to test their skills. Each Gym is led by a powerful Gym Leader, who specializes in a particular type of Pokémon. Trainers who are able to defeat the Gym Leader will earn a special badge as proof of their victory.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEfour" aria-expanded="false" aria-controls="collapseTwo">
+                    The Elite Four
+                  </button>
+                </h2>
+                <div id="collapseEfour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    After collecting every badge in their region, trainers may then challenge the Elite Four, a group of the strongest trainers in the Region, each specializing in a different type of Pokémon. A trainer must defeat all four members of the Elite Four in order to challenge the current Champion.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChampion" aria-expanded="false" aria-controls="collapseThree">
+                    The Pokemon Champion
+                  </button>
+                </h2>
+                <div id="collapseChampion" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The Pokémon Champion is the strongest trainer in the Region with a team of highly skilled and powerful Pokémon at their disposal. The current Champion is the trainer who has defeated the Elite Four and all previous Champions before them. Becoming the Pokémon Champion is the ultimate goal for many trainers, as it is considered to be the highest honor in the world of Pokémon.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- This is the Champion section -->
 
+    <!-- This is the Call To Action section -->
     <div class="container pokemonborderclass mt-5">
       <div class="row py-2">
         <h2 class="text-center">Start Your Adventure Today!!</h2>
@@ -481,11 +547,13 @@
       
       </div>
     </div>
-
-    <div class="bumperbottom">
-
-    </div>
+    <!-- This is the Call To Action section -->
+  
+    <!-- This stops the fixed footer from overlapping the bottom section -->
+    <div class="bumperbottom"></div>
+    <!-- This stops the fixed footer from overlapping the bottom section -->
     
+    <!-- This is the footer -->
     <footer class="bg-black px-2 footer fixed-bottom">
       
       <div class="container">
@@ -502,13 +570,13 @@
           <div class="col-4 d-flex justify-content-between pokemonborderclass">        
             
             <div class="d-flex flex-column justify-content-around ms-2">          
-              <p class="font"><a href="https://eckstein3rdfret.github.io/Website4beginners/" target="_blank">HOME</a></p>      
+              <p class="font"><a href="https://www.pokemon.com/us" target="_blank">HOME</a></p>      
               
               <p class="font"><a href="https://eckstein3rdfret.github.io/Website4beginners/" target="_blank">CONTACT</a></p>
             </div>
   
             <div class="d-flex flex-column justify-content-around me-3">
-              <p class="font"><a href="https://eckstein3rdfret.github.io/Website4beginners/" target="_blank">ABOUT</a></p>
+              <p class="font"><a href="https://eckstein3rdfret.github.io/Website4beginners/about.html" target="_blank">ABOUT</a></p>
   
               <p class="font"><a href="https://youtu.be/o-YBDTqX_ZU" target="_blank">????</a></p>
             </div>     
@@ -516,14 +584,15 @@
           
           <div class="col-12 d-flex justify-content-center align-items-center">
             Eric Marcellini &copy2022
-            <i class="fa-brands fa-facebook px-2"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter px-2"></i>
-            <i class="fa-brands fa-twitch"></i>
+            <a href="https://www.facebook.com/Pokemon/" class="text-light"><i class="fa-brands fa-facebook px-2"></i></a>
+            <a href="https://www.instagram.com/pokemon/" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/pokemon" class="text-light"><i class="fa-brands fa-twitter px-2"></i></a>
+            <a href="https://www.twitch.tv/pokemon" class="text-light"><i class="fa-brands fa-twitch"></i></a>
           </div>
         </div>  
       </div>       
     </footer>
+    <!-- This is the footer -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
