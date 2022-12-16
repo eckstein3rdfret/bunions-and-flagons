@@ -7,11 +7,6 @@
     font-family: 'pokemontxt';
     src: url(../fonts/pokemon-emerald.ttf);
 }
-@font-face {
-    font-family: 'Kanit'; 
-    src: url(../fonts/Kanit/Kanit-Italic.ttf);
-    font-weight: 500;
-}
 body{
     font-family: 'Kanit', sans-serif;
 }
